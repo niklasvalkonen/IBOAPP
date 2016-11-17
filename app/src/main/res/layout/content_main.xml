@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.niklas.iboapp3.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageButton
+
+        android:src="@drawable/icon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/menuImage"
+
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button4"
+        android:layout_height="80dp"
+        android:background="@drawable/green"
+        android:src="@drawable/revalidatiearts"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button6"
+        android:scaleType="fitXY"
+        android:layout_height="80dp"
+        android:background="@drawable/green"
+        android:src="@drawable/voedingscoach"
+        android:layout_marginBottom="41dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button3"
+        android:scaleType="fitXY"
+        android:layout_height="80dp"
+        android:background="@drawable/green"
+        android:src="@drawable/omgevingscoach"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button2"
+        android:scaleType="fitXY"
+        android:layout_height="80dp"
+        android:background="@drawable/green"
+        android:src="@drawable/beweegcoach"
+        android:layout_marginTop="37dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button5"
+        android:layout_height="80dp"
+        android:background="@drawable/green"
+        android:src="@drawable/systeembioloog"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:id="@+id/button1"
+        android:layout_height="80dp"
+        android:src="@drawable/psycholoog"
+        android:background="@drawable/green"
+        android:scaleType="fitXY"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
